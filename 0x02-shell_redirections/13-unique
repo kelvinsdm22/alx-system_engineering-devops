@@ -1,0 +1,2 @@
+#!/bin/bash
+cat input_file.txt | tr ' ' '\n' | sort | uniq -u | awk '{print}'
