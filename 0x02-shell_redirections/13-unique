@@ -1,2 +1,2 @@
 #!/bin/bash
-cat input_file.txt | tr ' ' '\n' | sort | uniq -u | awk '{print}'
+sort | uniq -c | while read count word; do [[ $count == 1 ]] && echo $word; done | sort
