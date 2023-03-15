@@ -1,2 +1,2 @@
 #!/bin/bash
-read -p " " plaintext && echo "$plaintext" | tr 'A-Za-z' 'N-ZA-Mn-za-m' | tee >(cat) | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+echo " " | tr 'A-Za-z' 'N-ZA-Mn-za-m' | tr 'A-Za-z' 'N-ZA-Mn-za-m'
