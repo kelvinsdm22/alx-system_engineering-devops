@@ -1,1 +1,2 @@
 #!/bin/bash
+$ grep -n '' | grep -E '^[02468]:'
